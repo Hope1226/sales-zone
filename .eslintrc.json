@@ -18,10 +18,13 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "consistent-return": "off",
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "camelcase": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": "off"
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }
