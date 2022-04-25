@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import logger from 'redux-logger';
-import testReducer from './test/test.js'
 import thunk from 'redux-thunk';
+import testReducer from './test/test';
 
 const reducers = combineReducers({ testReducer });
 
