@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import MainPage from './components/Index.js';
+import MainPage from './components/mainPage/Index.js';
 
 function App() {
   return (
