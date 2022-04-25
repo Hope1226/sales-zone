@@ -1,10 +1,14 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import MainPage from './components/Index.js';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello there</h1>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' exact element={<MainPage />} />
+    </Routes>
+    </>
   );
 }
 
